@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="styles.css">
+    	<title>Learn2Lead</title>
+</head>
+<body>
+    	<header>
+        	<h1>Learn2Lead: Educate to Elevate</h1>
+        	<nav>
+            	<ul>
+                	<li><a href="home.html">Home</a></li>
+                	<li><a href="sub.html">Mission & Vision</a></li>
+            	</ul>
+        	</nav>
+    	</header>
+    
+    	<div class="hero">
+        	<h2>About Us</h2>
+        	<p>Quality education is something everyone needs in their lives. Afterall, how else are we supposed to discover the world? Despite this, many children still suffer in the hands of poverty, leading to inaccessible quality education. The right to education is not only the right to access education but also the right to receive an education of good quality. Education must be available and accessible but also acceptable and adaptable. </p>
+    	</div>
+
+    	<div class="container">
+        	<section class="content">
+            	<div class="image-text">
+                	<img src="cs stuff/pic3.png">
+                	<div class="text">
+                    		<h3>Why Quality Education Matters</h3>
+                    		<p>Learning is a right, not a privilige. Quality education equips children like myself with knowledge and skills important for personal development. It provides us with equal opportunities regardless of our background or socioeconomic status. This ensures that every child gets the chance to learn and in return, teach this acquired knowledge to fellow children.</p>
+                	</div>
+            	</div>
+            	<div class="image-text">
+                	<img src="cs stuff/pic4.png">
+                	<div class="text">
+                    		<h3>Accessibility in Education</h3>
+                    		<p>Accessibility to Quality Education refers to the provision of ensuring everyone has access to quality education is crucial for building inclusive societies.</p>
+                	</div>
+            	</div>
+            	<div class="image-text">
+                	<img src="cs stuff/pic2.jfif">
+                	<div class="text">
+                    	<h3>Global Statistics</h3>
+                    	<p>Today, education remains an inaccessible right for millions of children around the world. More than 72 million children of primary education age are not in school and 759 million adults are illiterate and do not have the awareness necessary to improve both their living conditions and those of their children. (Humanium.org, n.d.)</p>
+                	</div>
+            	</div>
+        	</section>
+    	</div>
+
+    	<footer>
+        	<p>&copy; 2024 Educate to Elevate. All rights reserved.</p>
+    	</footer>
+</body>
+</html>

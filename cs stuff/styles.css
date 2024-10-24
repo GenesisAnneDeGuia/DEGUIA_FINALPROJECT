@@ -1,0 +1,163 @@
+/* General Styling */
+* {
+    	margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
+}
+
+body {
+    	font-family: 'Arial', sans-serif;
+    	background-color: #ffffff;
+    	color: #333333;
+    	line-height: 1.6;
+}
+
+.container {
+    	width: 90%;
+    	max-width: 1200px;
+    	margin: 0 auto;
+}
+
+/* Header */
+header {
+    	background-color: #262a52;
+    	color: white;
+    	padding: 20px 0;
+}
+
+header h1 {
+    	text-align: center;
+    	font-size: 2.5rem;
+    	margin-bottom: 10px;
+}
+
+nav ul {
+    	list-style-type: none;
+    	text-align: center;
+    	padding: 10px 0;
+}
+
+nav ul li {
+    	display: inline;
+    	margin: 0 15px;
+}
+
+nav ul li a {
+    	color: white;
+    	text-decoration: none;
+    	font-size: 1.2rem;
+    	transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    	color: #e0e0e0;
+}
+
+/* Hero Section */
+.hero {
+    	background-color: #f4f4f4;
+    	color: #333;
+    	padding: 60px 0;
+    	text-align: center;
+    	margin-bottom: 40px;
+}
+
+.hero h2 {
+    	font-size: 2.5rem;
+}
+
+.hero p {
+    	font-size: 1.2rem;
+    	max-width: 800px;
+    	margin: 20px auto;
+}
+
+/* Content Section */
+.content {
+    	display: grid;
+    	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    	gap: 20px;
+    	margin-bottom: 40px;
+}
+
+.image-text {
+    	background: white;
+    	border-radius: 8px;
+    	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    	overflow: hidden;
+    	transition: transform 0.3s, box-shadow 0.3s;
+    	display: flex;
+    	flex-direction: column;
+}
+
+.image-text:hover {
+    	transform: translateY(-5px);
+    	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.image-text img {
+    	width: 100%;
+    	height: auto;
+}
+
+.image-text .text {
+    	padding: 20px;
+    	flex-grow: 1;
+}
+
+.image-text h3 {
+    	margin-bottom: 10px;
+    	color: #262a52;
+}
+
+/* Mission & Vision Page */
+.mission {
+    	font-size: 1.5rem;
+	text-align: justified;
+    	margin: 40px 0;
+	background: white;
+    	border-radius: 8px;
+    	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    	overflow: hidden;
+    	display: flex;
+    	flex-direction: column;
+}
+
+.mission p {
+	font-size: 1.2rem;
+}
+
+.vision {
+    	font-size: 1.5rem;
+	text-align: justified;
+    	margin: 40px 0;
+	background: white;
+    	border-radius: 8px;
+    	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    	overflow: hidden;
+    	display: flex;
+    	flex-direction: column;
+}
+
+.vision p {
+	font-size: 1.2rem;
+}
+
+.container h2 {
+    	margin-bottom: 20px;
+    	font-size: 2rem;
+    	color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    	background-color: #262a52;
+    	color: white;
+    	text-align: center;
+    	padding: 10px 0;
+	position: relative;
+}
+
+footer p {
+    	margin: 0;
+}
